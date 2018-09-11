@@ -12,9 +12,8 @@ end
 
 function autoformat()
 	CurView():Save(false)
-	local handle = io.popen("autopep8 --inplace -a " .. CurView().Buf.Path)
-	local result = handle:read("*a")
-	handle:close()
+
+	RunShellCommand("autopep8 --in-place -a " .. CurView().Buf.Path)
 
 	CurView():ReOpen()
 end
