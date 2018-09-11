@@ -1,0 +1,14 @@
+[{
+	"Name": "autopep8",
+	"Description": "auto formats python files using autopep8",
+	"Tags": ["python"],
+	"Versions": [
+		{
+			"Version": "0.0.1",
+			"Url": "localhost",
+			"Require": {
+				"micro": ">=1.4.1"
+			}
+		}
+	]
+}]
