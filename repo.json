@@ -5,7 +5,7 @@
 	"Versions": [
 		{
 			"Version": "0.0.1",
-			"Url": "localhost",
+			"Url": "https://github.com/mbkulik/micro-autopep8/archive/v0.0.1.zip",
 			"Require": {
 				"micro": ">=1.4.1"
 			}
